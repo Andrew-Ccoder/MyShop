@@ -27,7 +27,7 @@ namespace MyShop.DataAccess.InMemory
 
         public void commit()
         {
-            Cache["product"] = products;
+            Cache["products"] = products;
         }
 
         public void Insert(Product p)
